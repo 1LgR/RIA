@@ -1,4 +1,4 @@
-function fat(n){
+function fatorial(n){
     var resultado = n;
     if(n === 0 || n === 1) return 1;
     while(n > 1){
