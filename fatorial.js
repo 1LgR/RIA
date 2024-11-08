@@ -8,4 +8,4 @@ function fatorial(n){
     return resultado;
 }
 
-module.exports = fat;
+module.exports = fatorial;

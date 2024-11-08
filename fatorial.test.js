@@ -1,13 +1,13 @@
 const fatorial = require('./fatorial');
 
 test('Teste o fatorial de 4', () => {
-    expect(fat(4)).toBe(24);
+    expect(fatorial(7)).toBe(5040);
 });
 
 test('Teste o fatorial de 3', () => {
-    expect(fat(3)).toBe(6);
+    expect(fatorial(5)).toBe(120);
 });
 
 test('Teste o fatorial de 10', () => {
-    expect(fat(10)).toBe(3628800);
+    expect(fatorial(15)).toBe(1307674368000);
 });
