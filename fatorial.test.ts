@@ -1,4 +1,4 @@
-const fatorial = require('./fatorial');
+import fatorial from './fatorial';
 
 test('Teste o fatorial de 7', () => {
     expect(fatorial(7)).toBe(5040);
