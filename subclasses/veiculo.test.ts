@@ -1,6 +1,6 @@
 import { Carro, Moto, Veiculo } from "./veiculo";
 
-describe("Testando Veiculos e método estático", () => {
+descreva("Testando Veiculos e método estático", () => {
     test("Criação e descrição de Carro e Moto", () => {
         const carro = new Carro("SUV", 2023, "Gasolina");
         const moto = new Moto("Esportiva", 2022, 600);
